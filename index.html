@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main page my site</title>
+	<link rel="stylesheet" href="./normalize.css">
+	<link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="container">
+			<div class="site-header_intro">
+				<a class="site-header_logo__link" href="/">
+					<img class="site-header_logo" src="./images/sitelogo.svg" alt="Site logo">
+				</a>
+
+				<button class="hamburg_btn hidden-btn" id="hamburg-btn"></button>
+
+				<div class="overlay"></div>
+
+				<nav class="site-header_navbar">
+					<a class="site-header_navbar__link" href="/">
+						<img width="129" height="38.4" src="./images/sitelogo.svg" alt="Site logo">
+					</a>
+
+					<ul class="site-header_navbar__list navbar-list unstyled-list">
+
+						<li class="close-btn_item">
+							<button class="hamburg_btn close-btn"></button>
+						</li>
+
+						<li class="navbar-list_item active-link">
+							<a class="navbar-list_item__link" href="#">Dashboard</a>
+						</li>
+
+						<li class="navbar-list_item">
+							<a class="navbar-list_item__link" href="#">Wallets</a>
+						</li>
+
+						<li class="navbar-list_item">
+							<a class="navbar-list_item__link" href="#">Settings</a>
+						</li>
+
+						<li class="navbar-list_item">
+							<a class="navbar-list_item__link" href="#">Help & Center</a>
+						</li>
+					</ul>
+
+					<button class="site-header_navbar__btn">
+						LogOut
+					</button>
+
+				</nav>
+
+				<div class="site-header_btns__wrapper">
+					<input class="hamburg_btn site-header_search" placeholder="Search anything here" type="search">
+					<span class="hamburg_btn site-header_notification"></span>
+					<span class="hamburg_btn site-header_user__image"></span>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<main class="">
+		<section class="hero-section">
+			<div class="hero-section_intro">
+				<div class="container">
+					<h1 class="hero-section_heading">
+						Welcome back, Rainer Yaeger 👏🏻
+					</h1>
+					<div class="hero-section_badge">
+						<span class="">Dashboard</span>
+						<span class="hero-section_badge__text">Overview</span>
+					</div>
+					<div class="date_wrapper">
+						<ul class="hero-section_road__list road-list unstyled-list">
+							<li class="road-list_item active">
+								Overview
+							</li>
+							<li class="road-list_item ">
+								Transaction
+							</li>
+							<li class="road-list_item ">
+								Statistics
+							</li>
+						</ul>
+						<time class="hero-section_date" datetime="2025-07-05">Juli 5,2025</time>
+					</div>
+				</div>
+			</div>
+			<div class="hero-section_end dashboard">
+				<div class="container">
+					<div class="float-dashboard">
+						<div class="dashboard-intro">
+							<div class="list-wrapper">
+								<ul class="dashboard-money_list list-height unstyled-list">
+									<li class="dashboard-money_list__item">
+										<div class="dashboard-money_list__intro">
+											<span class="dashboard-money_list__info">Total Balance</span>
+											<span class="dashboard-money_list__card">****7189</span>
+										</div>
+										<strong class="dashboard-money_list__money">$12,456,315</strong>
+										<div class="money-btn_wrapper">
+											<button class="send-money">Transfer</button>
+											<button class="send-money receive-money">Receive</button>
+										</div>
+									</li>
+								</ul>
+
+								<ul class="hero-section_activity__list activity-list unstyled-list">
+									<li class="activity-list_item">
+										<strong class="activity-list_text">Recent Activity</strong>
+										<span class="activity-list_info">See more</span>
+									</li>
+
+									<li class="activity-list_item">
+										<div class="activity-list_item__intro ">
+											<div class="activity-list_item__money">
+												<strong class="figma_text">Figma Pro</strong>
+												<span class="figma_info">Subscription</span>
+											</div>
+										</div>
+										<div class="activity-list_item__money">
+											<span class="money-info figma_text">-$23.21</span>
+											<time datetime="10-02-2022" class="send-money_date figma_info">10/02/22 - 15.34</time>
+										</div>
+									</li>
+
+									<li class="activity-list_item">
+										<div class="activity-list_item__intro adobe">
+											<div class="activity-list_item__money">
+												<strong class="figma_text">Adobe Collection</strong>
+												<span class="figma_info">Subscription</span>
+											</div>
+										</div>
+										<div class="activity-list_item__money">
+											<span class="money-info figma_text">-$50.21</span>
+											<time datetime="10-02-2022" class="send-money_date figma_info">10/02/22 - 15.34</time>
+										</div>
+									</li>
+
+									<li class="activity-list_item">
+										<div class="activity-list_item__intro fiver">
+											<div class="activity-list_item__money">
+												<strong class="figma_text">Fiver Inter</strong>
+												<span class="figma_info">Subscription</span>
+											</div>
+										</div>
+										<div class="activity-list_item__money">
+											<span class="money-info figma_text">+$100.00</span>
+											<time datetime="10-02-2022" class="send-money_date figma_info">10/02/22 - 15.34</time>
+										</div>
+									</li>
+
+									<li class="activity-list_item">
+										<div class="activity-list_item__intro starbucks">
+											<div class="activity-list_item__money">
+												<strong class="figma_text">Starbucks</strong>
+												<span class="figma_info">Subscription</span>
+											</div>
+										</div>
+										<div class="activity-list_item__money">
+											<span class="money-info figma_text">-$50.00</span>
+											<time datetime="10-02-2022" class="send-money_date figma_info">10/02/22 - 15.34</time>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+
+							<ul class="graph-list unstyled-list">
+
+								<li class="dashboard-money_list increase-item ">
+									<div class="dashboard-money_list__intro">
+										<span class="dashboard-money_list__info">Income Analysis</span>
+										<span class="increase-money_list__card">Monthly</span>
+									</div>
+									<div class="percentage-wrapper">
+										<div>
+											<strong class="increase-money_list__money">$8,527,224</strong>
+											<div class="">
+												<span class="percentage">+3.1%</span>
+												<span class="increase-text">Increased this month</span>
+												<span class="increase-text_tablet">Expensive increased by<span
+														class="increase-percentage">$2.172</span> This Month</span>
+											</div>
+										</div>
+										<img class="bargraph_image" width="180" height="110" src="./images/bargrph.svg"
+											alt="Bar graph image">
+									</div>
+								</li>
+
+
+								<li class="dashboard-money_list increase-item ">
+									<div class="dashboard-money_list__intro">
+										<span class="dashboard-money_list__info">Expense Analysis</span>
+										<span class="increase-money_list__card">Monthly</span>
+									</div>
+									<div class="percentage-wrapper">
+										<div>
+											<strong class="increase-money_list__money">$2,056,123</strong>
+											<div class="">
+												<span class="percentage decrease">-2.1%</span>
+												<span class="increase-text">Decreased this month</span>
+												<span class="increase-text_tablet">Expensive increased by<span
+														class="decrease-percentage">$2.172</span> This Month</span>
+											</div>
+										</div>
+										<img class="bargraph_image" width="180" height="110" src="./images/vector.svg" alt="Vector image">
+									</div>
+								</li>
+
+
+
+								<li class="dashboard-money_list increase-item ">
+									<div class="dashboard-money_list__intro">
+										<span class="dashboard-money_list__info">Expense Analysis</span>
+										<span class="increase-money_list__card">Monthly</span>
+									</div>
+									<div class="image-wrapper">
+										<img class="pie-graph_image" width="190" height="190" src="./images/increaseanddecrease.svg"
+											alt="Pie graph">
+										<div class="pie-graph_info">
+											<div class="pie-graph_info__intro">
+												<span class="pie-graph_text">Subscribed(40.1%)</span>
+												<span class="pie-graph_money">$500.00</span>
+											</div>
+											<div class="pie-graph_info__intro">
+												<span class="pie-graph_text major-taxs">Taxs(25%)</span>
+												<span class="pie-graph_money">$1000.00</span>
+											</div>
+											<div class="pie-graph_info__intro">
+												<span class="pie-graph_text minor-taxs">Taxs(6.1%)</span>
+												<span class="pie-graph_money">$345.00</span>
+											</div>
+											<div class="pie-graph_info__intro">
+												<span class="pie-graph_text others">Others(19.2%)</span>
+												<span class="pie-graph_money">$234.098</span>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+
+							<div class="plan-list_item">
+								<ul class="plans-list unstyled-list">
+									<li class="plan-list_item">
+										<div class="dashboard-money_list__intro">
+											<span class="dashboard-money_list__info">My Pocked Plans</span>
+											<span class="increase-money_list__card">See more</span>
+										</div>
+
+										<div class="plan-item_wrapper">
+											<div class="plan-item">
+												<img width="40" height="40" src="./images/car.svg" alt="Mini car image">
+												<div class="plan-text_wrapper">
+													<strong class="plan-text">New Car</strong>
+													<span class="plan-money">$5.000.000</span>
+												</div>
+											</div>
+											<div class="plan-item">
+												<img width="40" height="40" src="./images/gamecontrol.svg" alt="Mini car image">
+												<div class="plan-text_wrapper">
+													<strong class="plan-text">New Console</strong>
+													<span class="plan-money">$5.000.000</span>
+												</div>
+											</div>
+											<div class="plan-item">
+												<img width="40" height="40" src="./images/money.svg" alt="Mini car image">
+												<div class="plan-text_wrapper">
+													<strong class="plan-text">Savings</strong>
+													<span class="plan-money">$5.000.000</span>
+												</div>
+											</div>
+											<div class="plan-item">
+												<img width="40" height="40" src="./images/wife.svg" alt="Mini car image">
+												<div class="plan-text_wrapper">
+													<strong class="plan-text">New Car</strong>
+													<span class="plan-money">$5.000.000</span>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+								<ul class="plans-list plans-list_height unstyled-list">
+									<li class="plan-list_item">
+										<div class="dashboard-money_list__intro">
+											<span class="dashboard-money_list__info">My Pocked Plans</span>
+											<button class="currancy-btn">
+												1 | USD
+											</button>
+										</div>
+
+										<div class="country-item_wrapper">
+											<div class="country-item">
+												<span class="country">Rupiah</span>
+												<div class="country-item_amount">
+													<span class="money-amount">15425,15</span>
+													<span class="money-amount_info">IDR</span>
+												</div>
+											</div>
+
+											<div class="country-item">
+												<span class="country euro">Euro</span>
+												<div class="country-item_amount">
+													<span class="money-amount">0.95</span>
+													<span class="money-amount_info">EUR</span>
+												</div>
+											</div>
+
+											<div class="country-item">
+												<span class="country yuan">Chinese Yuan</span>
+												<div class="country-item_amount">
+													<span class="money-amount">7.06</span>
+													<span class="money-amount_info">CYN</span>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<script src="./main.js"></script>
+</body>
+
+</html>

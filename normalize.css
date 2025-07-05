@@ -1,0 +1,93 @@
+/* 1. Brauzer defaultlarini reset qiladi */
+html {
+  line-height: 1.15; /* Text spacing */
+  -webkit-text-size-adjust: 100%; /* iOS font zoom muammosini tuzatadi */
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* 2. Sarlavha, matn va boshqa umumiy elementlar */
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* 3. Form elementlari */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* 4. Box model va default o‘lchamlar */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
